@@ -72,3 +72,15 @@ Python can automate the retrieval process
 AI conversations are a valuable source of information, but chat history alone is not suitable for structured knowledge management.
 
 This project was created to transform AI interactions into a reusable personal knowledge base by converting chat logs into well-structured Markdown notes compatible with Obsidian.
+
+## Usage
+
+1. Export your ChatGPT data and obtain `conversations.json`.
+2. Place the file in the same directory as `chat_to_obsidian.py`.
+3. Run the script.
+
+
+python chat_to_obsidian.py
+
+
+Markdown files will be generated in the `output` folder.
